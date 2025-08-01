@@ -1,0 +1,47 @@
+/* #para{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+} */
+
+/* themeswicther */
+
+#hedtoggle{
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  transition: all 0.5s ease;
+}
+
+body.dark-mode {
+  background-color: #2c2c2c;
+  color: #fefefe;
+}
+#togglebtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+    background-color: #007BFF;
+}
+body.monsoon-mode {
+  background-color: #cce7ff;
+  color: #003366;
+  background-image: url('raindrops.png'); /* optional effect */
+}

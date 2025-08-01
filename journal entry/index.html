@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joural</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- index.html -->
+<form id="journalForm">
+  <input type="date" id="entryDate" required>
+  <textarea id="entryText" placeholder="What’s on your mind?" required></textarea>
+  <select id="moodTag">
+    <option value="😊">😊 Happy</option>
+    <option value="😐">😐 Meh</option>
+    <option value="😔">😔 Sad</option>
+  </select>
+  <button type="submit">Save Entry</button>
+</form>
+
+<ul id="journalList"></ul>
+<script src="journal.js"></script>
+</body>
+</html>
